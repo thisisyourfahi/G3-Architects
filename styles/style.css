@@ -1,0 +1,42 @@
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+.text-dark02 {
+    color: #424242;
+}
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+
+/* header style */
+/* navbar related style */
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    gap: 30px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+} 
+nav, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.brand {
+    font-weight: bold;
+    font-size: 3em;
+}
