@@ -228,6 +228,18 @@ nav,
     filter: grayscale(100%);
 }
 
+/* footer  */
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 39px 410px;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+
+
 
 
 /* responsive media query */
@@ -295,5 +307,11 @@ nav,
         width: 166px;
         margin: 0 auto;
         gap: 30px;
+    }
+
+    footer {
+        max-width: 100%;
+        padding: 10px 5px;
+        margin-top: 50px;
     }
 }
