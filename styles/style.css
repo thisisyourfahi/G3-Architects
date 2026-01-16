@@ -256,4 +256,10 @@ nav,
     .love-enjoy-btn-image .btn3 {
         position: static;
     }
+    .some-facts-cards {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15%;
+    }
 }
