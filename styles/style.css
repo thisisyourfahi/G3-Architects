@@ -20,6 +20,7 @@
     background-color: rgba(255, 144, 14, 0.1);
 
 }
+
 .le-card-title {
     font-size: 1rem;
     font-weight: 600;
@@ -33,9 +34,11 @@
     padding: 20px 25px;
     font-size: 1.25rem;
 }
+
 .btn-primary:hover {
     cursor: pointer;
 }
+
 .shared-title {
     font-size: 2.5rem;
     font-weight: 700;
@@ -151,6 +154,7 @@ nav,
 .shared-title {
     margin-bottom: 24px;
 }
+
 .love-enjoy-card {
     margin-bottom: 20px;
     border-radius: 8px;
@@ -158,20 +162,51 @@ nav,
     max-width: 586px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
 }
+
 .btn3>* {
     margin: 0;
 }
+
 .love-enjoy-btn-image {
     position: relative;
 }
+
 .btn3 {
     padding: 46px 42px;
     position: absolute;
     bottom: 0px;
 }
-.love-enjoy-btn-image img{
+
+.love-enjoy-btn-image img {
     margin: 0 0 50px 50px;
     border-radius: 8px;
+}
+
+/* Some facts */
+.some-facts {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.some-facts-cards {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fact-card .card-title {
+    margin: 0;
+}
+.fact-card .card-name {
+    margin-top: 5px;
 }
 
 
@@ -211,5 +246,14 @@ nav,
         max-width: 100%;
         text-align: center;
     }
-
+    .love-enjoy {
+        flex-direction: column;
+        width: 100%;
+    }
+    .love-enjoy-btn-image img{
+        width: 80%;
+    }
+    .love-enjoy-btn-image .btn3 {
+        position: static;
+    }
 }
