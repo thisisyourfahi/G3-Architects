@@ -63,8 +63,47 @@ nav, .banner {
     font-weight: 700;
     font-size: 4rem;
 }
+.banner-description {
+    margin-bottom: 32px;
+}
 .banner img {
     width: 100%;
+}
+
+/* Feature and Images */
+.feature-and-images {
+    margin-top: 85px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 73px;
+    justify-content: center;
+    align-items: center;
+}
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-images img {
+    height: 342px;
+    width: 342px;
+    border-radius: 8px;
+}
+.feature-description {
+    max-width: 537px;
+}
+.feature-description h3 {
+    font-size: 2.5rem;
+}
+.extra {
+    font-weight: 500;
+}
+.feature-description p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.primary-color {
+    color: #FF900E;
 }
 
 
