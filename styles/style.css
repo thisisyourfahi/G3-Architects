@@ -1,23 +1,26 @@
-
 .work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* shared styles */
 .display-flex {
     display: flex;
 }
+
 .text-dark02 {
     color: #424242;
 }
+
 .text-dark03 {
     color: #727272;
 }
+
 .bg-light {
     background-color: rgba(255, 144, 14, 0.1);
 
 }
+
 .btn-primary {
     background-color: #FF900E;
     border: none;
@@ -33,20 +36,26 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
 nav ul {
     gap: 30px;
 }
+
 nav ul li {
     list-style: none;
 }
+
 nav ul li a {
     text-decoration: none;
     font-weight: 500;
-} 
-nav, .banner {
+}
+
+nav,
+.banner {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .brand {
     font-weight: bold;
     font-size: 3rem;
@@ -59,13 +68,16 @@ nav, .banner {
     text-align: center;
     margin-bottom: 50px;
 }
+
 .brand-title {
     font-weight: 700;
     font-size: 4rem;
 }
+
 .banner-description {
     margin-bottom: 32px;
 }
+
 .banner img {
     width: 100%;
 }
@@ -79,29 +91,36 @@ nav, .banner {
     justify-content: center;
     align-items: center;
 }
+
 .feature-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
+
 .feature-images img {
     height: 342px;
     width: 342px;
     border-radius: 8px;
 }
+
 .feature-description {
     max-width: 537px;
 }
+
 .feature-description h3 {
     font-size: 2.5rem;
 }
+
 .extra {
     font-weight: 500;
 }
+
 .feature-description p {
     margin-top: 24px;
     margin-bottom: 32px;
 }
+
 .primary-color {
     color: #FF900E;
 }
@@ -109,13 +128,39 @@ nav, .banner {
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    header nav, nav ul {
+
+    header nav,
+    nav ul {
         flex-direction: column;
         text-align: center;
         padding: 0;
     }
+
     .brand-title {
         font-size: 3rem;
         padding: 20px;
     }
+
+    .feature-and-images {
+        margin-top: 20px;
+        /* margin-bottom: 130px; */
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-images img {
+        height: 175px;
+        width: 175px;
+        border-radius: 8px;
+    }
+
+    .feature-description {
+        max-width: 100%;
+        text-align: center;
+    }
+
 }
